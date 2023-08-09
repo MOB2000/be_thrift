@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "827450756686",
+    "project_id": "thrift754",
+    "storage_bucket": "thrift754.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827450756686:android:81d0470ddcf30313873d1f",
+        "android_client_info": {
+          "package_name": "com.example.be_thrift"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "827450756686-7lgta9v60lu3tmjlrsuued5o2g680ds3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQW9YrPDYacnE51X7C3OufwbxBYpwjgak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "827450756686-7lgta9v60lu3tmjlrsuued5o2g680ds3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "827450756686-g4fappd6le0shm13tmde3cqs4osfvr89.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.beThrift"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

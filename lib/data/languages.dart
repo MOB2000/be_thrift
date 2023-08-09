@@ -1,0 +1,28 @@
+class Language {
+  final String code;
+  final String title;
+
+  Language({
+    required this.code,
+    required this.title,
+  });
+}
+
+final List<Language> languages = [
+  Language(
+    code: 'en',
+    title: 'English (US)',
+  ),
+  Language(
+    code: 'fr',
+    title: 'French (Français)',
+  ),
+  Language(
+    code: 'kn',
+    title: 'Kannada (ಕನ್ನಡ)',
+  ),
+  Language(
+    code: 'es',
+    title: 'Spanish (Español)',
+  ),
+];

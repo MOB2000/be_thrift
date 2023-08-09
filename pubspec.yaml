@@ -1,0 +1,73 @@
+name: be_thrift
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_core:
+  firebase_auth:
+  cloud_firestore:
+  google_sign_in:
+  after_layout:
+  collection:
+  http:
+  intl:
+  json_annotation:
+  local_auth:
+  package_info:
+  path:
+  provider:
+  shared_preferences:
+  sqflite:
+  transparent_image:
+  flutter_localization:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  build_runner:
+  flutter_launcher_icons:
+  intl_translation:
+  json_serializable:
+
+flutter_launcher_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "assets/icons/app_icon.png"
+  min_sdk_android: 16 # android min sdk min:16, default 21
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logos/
+    - assets/images/
+    - assets/categories/expense/
+    - assets/categories/income/
+    - assets/categories/custom/
+  fonts:
+    - family: FiraSans
+      fonts:
+        - asset: assets/fonts/FiraSans-Regular-400.ttf
+          weight: 400
+        - asset: assets/fonts/FiraSans-Medium-500.ttf
+          weight: 500
+        - asset: assets/fonts/FiraSans-SemiBold-600.ttf
+          weight: 600
+        - asset: assets/fonts/FiraSans-Bold-700.ttf
+          weight: 700
+        - asset: assets/fonts/FiraSans-ExtraBold-800.ttf
+          weight: 800
+
+flutter_intl:
+  enabled: true
+
+
